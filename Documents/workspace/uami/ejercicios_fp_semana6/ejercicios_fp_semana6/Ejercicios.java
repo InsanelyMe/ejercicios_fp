@@ -9,9 +9,9 @@ public class Ejercicios {
 		Scanner input = new Scanner(System.in);
 		Calculadora  calq = new Calculadora();
 		
-		System.out.println("tama–o del conjunto? (n)");
+		System.out.println("tamaï¿½o del conjunto? (n)");
 		int n = input.nextInt();
-		System.out.println("Tama–o de la combinacion? (r)");
+		System.out.println("Tamaï¿½o de la combinacion? (r)");
 		int r = input.nextInt();
 		
 		int res = calq.factorial(n)/(calq.factorial(r)*calq.factorial(n-r));
@@ -42,7 +42,7 @@ public class Ejercicios {
 				f1 = fn;
 			}
 		}else{
-			System.out.println("invalid value? algo chistoso pas—...");
+			System.out.println("invalid value? algo chistoso paso...");
 			fibonacci();
 		}
 		
